@@ -2,7 +2,7 @@ var request = require('request');
 var jsonfile = require('jsonfile');
 var util = require('util');
 var path=require('path');
-
+var hash='17c005c2c8d945467e908795167c7716e06e6189';
 var file=path.resolve(__dirname, 'data.json');
 console.log(file);
 //Lets configure and request
